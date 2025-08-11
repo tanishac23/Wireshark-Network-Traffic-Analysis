@@ -1,4 +1,4 @@
-# Task 5: Capture and Analyze Network Traffic Using Wireshark
+# Internship Task 5: Capture and Analyze Network Traffic Using Wireshark
 
 ## Objective
 Capture live network packets and identify basic protocols and traffic types using Wireshark.
@@ -24,7 +24,7 @@ Capture live network packets and identify basic protocols and traffic types usin
 5. Created folder to save captures.
 6. Ensured permission to capture on this network.
 
-📸 **Screenshot:** `interface-selection.png` – showing selected network interface in Wireshark.
+📸 **Screenshot:** https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/wiresahark_homepage.png – showing selected network interface in Wireshark.
 
 ---
 
@@ -33,7 +33,8 @@ Capture live network packets and identify basic protocols and traffic types usin
 2. Selected the active interface (Wi-Fi in our case).
 3. Double-clicked to start capturing packets.
 
-📸 **Screenshot:** `start-capture.png` – capturing live traffic.
+📸 **Screenshot:** https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/Wireshark_StartCapture1.png
+https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/Wireshark_StartCapture2.png – capturing live traffic.
 
 ---
 
@@ -44,8 +45,7 @@ Capture live network packets and identify basic protocols and traffic types usin
 4. Opened a website to generate TCP traffic.
 
 📸 **Screenshots:**
-- `tcp-capture-filter.png` – showing the capture filter set to `tcp`.
-- `tcp-packets.png` – list of captured TCP packets.
+- https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/Wireshark_tcp_Capture.png – list of captured TCP packets.
 
 ---
 
@@ -55,8 +55,8 @@ Capture live network packets and identify basic protocols and traffic types usin
 3. Visited a non-HTTPS website (`http://example.com`).
 
 📸 **Screenshots:**
-- `http-display-filter.png` – showing the HTTP display filter applied.
-- `http-packets.png` – showing only HTTP packets.
+- https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/without_http.png
+- https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/Wireshark_httpCapture.png – showing only HTTP packets.
 
 ---
 
@@ -66,8 +66,10 @@ Capture live network packets and identify basic protocols and traffic types usin
 3. Viewed conversation between browser and server.
 
 📸 **Screenshots:**
-- `follow-tcp-stream-option.png` – right-click menu showing Follow → TCP Stream.
-- `tcp-stream-window.png` – TCP Stream conversation view.
+- https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/Follow_tcpStream_option.png
+- https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/tcpStream_window.png
+- https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/Follow_tcpStream_option2.png
+- https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/tcp_Stream_window2.png
 
 ---
 
@@ -76,7 +78,7 @@ Capture live network packets and identify basic protocols and traffic types usin
 2. Clicked **Save As** → `tcp-stream-data.txt`.
 3. Closed the TCP Stream window.
 
-📸 **Screenshot:** `save-tcp-stream-data.png` – save dialog with filename.
+📸 **Screenshot:** https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/tcp-stream-data.txt – save dialog with filename.
 
 ---
 
@@ -85,7 +87,7 @@ Capture live network packets and identify basic protocols and traffic types usin
 2. Expanded **Hypertext Transfer Protocol** in the middle panel.
 3. Recorded **Request Method**, **Request URI**, **Host**.
 
-📸 **Screenshot:** `http-get-request-details.png`
+📸 **Screenshot:** https://github.com/tanishac23/Wireshark-Network-Traffic-Analysis/blob/main/images/http_get_request.png
 
 ---
 
